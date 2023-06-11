@@ -72,7 +72,7 @@ class CountryCell: UITableViewCell {
         let stackView = UIStackView()
         stackView.spacing = 5
         stackView.axis = .vertical
-        stackView.alignment = .fill
+        stackView.alignment = .leading
         stackView.distribution = .fill
         return stackView
     }()
